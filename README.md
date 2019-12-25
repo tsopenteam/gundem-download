@@ -1,10 +1,10 @@
 # gundem-download
 
-### Nedir
+### Nedir?
 
-Teknoseyir haftalık gündem değerlendirme podcastlerini toplu bir şekilde indirmek için kullanabileceğiniz python console uygulamasıdır.
+[TeknoSeyir](https://teknoseyir.com/) Haftalık Gündem Değerlendirmesi podcastlerini toplu bir şekilde indirmek için kullanabileceğiniz Python console uygulamasıdır.
 
-Dikkat edilmesi gereken hususlar :
+Dikkat edilmesi gereken hususlar:
     
   - Kullanmadan önce sisteminizde `python3` kurulu olmalıdır.
   - Tüm podcastlerin toplam boyutu 33 GB ve her hafta giderek artmaktadır.
