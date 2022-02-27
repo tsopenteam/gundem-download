@@ -71,7 +71,10 @@ try:
             
             if not os.path.exists(full_directory):
                 print(f'Podcast indiriliyor : {podcast_name}')
-                urllib.request.urlretrieve(item["podcastLink"], full_directory)
+                
+                opener = urllib.request.URLopener()
+                opener.addheader('User-Agent', 'whatever')
+                opener.retrieve(item["podcastLink"], full_directory)
             else:
                 print(f'Podcast zaten var : {podcast_name}')
         
@@ -90,7 +93,10 @@ try:
         
         if not os.path.exists(full_directory):
             print(f'Podcast indiriliyor : {podcast_name}')
-            urllib.request.urlretrieve(item["podcastLink"], full_directory)
+            
+            opener = urllib.request.URLopener()
+            opener.addheader('User-Agent', 'whatever')
+            opener.retrieve(item["podcastLink"], full_directory)
         else:
             print(f'Podcast zaten var : {podcast_name}')
         
