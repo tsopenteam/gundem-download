@@ -20,6 +20,6 @@ Dikkat edilmesi gereken hususlar:
 ### Kullanılan Python Kütüphaneleri
 
   - os
-  - requests
+  - requests   (pip install requests)
   - json
-  - urllib.request
+  - urllib.request   (pip install urllib3)
