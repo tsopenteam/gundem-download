@@ -22,4 +22,3 @@ Dikkat edilmesi gereken hususlar:
   - os
   - requests   (pip install requests)
   - json
-  - urllib.request   (pip install urllib3)
